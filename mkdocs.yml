@@ -1,3 +1,4 @@
+site_url: https://time.dmitrvk.ru/docs/
 site_name: Time Tracking App
 nav:
   - Home: index.md
