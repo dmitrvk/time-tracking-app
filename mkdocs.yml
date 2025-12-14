@@ -1,0 +1,8 @@
+site_name: Time Tracking App
+nav:
+  - Home: index.md
+  - Development:
+    - Concept: development/concept.md
+    - Architecture: development/architecture.md
+    - Progress: development/progress.md
+    - For developers: development/for_developers.md
