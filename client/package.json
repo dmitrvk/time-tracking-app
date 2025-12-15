@@ -9,14 +9,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
-    "vue": "^3.5.25"
+    "vitest": "4.0.15",
+    "vue": "3.5.25"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.2",
-    "vite": "^7.2.4",
-    "vite-plugin-vue-devtools": "^8.0.5"
+    "@vitejs/plugin-vue": "6.0.2",
+    "vite": "7.2.4",
+    "vite-plugin-vue-devtools": "8.0.5"
   }
 }
