@@ -1,9 +1,11 @@
 export class TimeTracker {
-	constructor() {
-  	this.state = "stopped";
+  state: string
+
+  constructor() {
+    this.state = "stopped";
   }
 
-  getState() {
+  getState(): string {
     return this.state;
   }
 

@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+  const a: int = 1;
+  console.log(a);
+</script>
 
 <template>
   <button class="start-stop-button">
