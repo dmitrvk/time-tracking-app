@@ -2,14 +2,14 @@ export class TimeTracker {
   state: string
 
   constructor() {
-    this.state = "stopped";
+    this.state = 'stopped'
   }
 
   getState(): string {
-    return this.state;
+    return this.state
   }
 
   start() {
-    this.state = 'running';
+    this.state = 'running'
   }
 }
