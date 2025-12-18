@@ -12,4 +12,8 @@ export class TimeTracker {
   start() {
     this.state = 'running'
   }
+
+  stop() {
+    this.state = 'stopped'
+  }
 }

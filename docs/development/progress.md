@@ -1,5 +1,9 @@
 # Progress
 
+## 2025-12-18
+
+The button now changes visually on click (Start/Stop).
+
 ## 2025-12-14
 
 Added MkDocs to the project. Published docs site on the web.

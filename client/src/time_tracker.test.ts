@@ -10,4 +10,6 @@ test('time tracker state', () => {
   expect(timeTracker.getState()).toBe('stopped')
   timeTracker.start()
   expect(timeTracker.getState()).toBe('running')
+  timeTracker.stop()
+  expect(timeTracker.getState()).toBe('stopped')
 })
